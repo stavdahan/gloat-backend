@@ -2,8 +2,8 @@ import mysql.connector
 
 # change the user and the password
 config = {
-    'user': 'root',
-    'password': 'Stavsql23',
+    'user': '',
+    'password': '',
     'host': 'localhost',
     'database': 'matcherdb',
 }
