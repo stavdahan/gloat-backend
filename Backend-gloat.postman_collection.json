@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "7ee2a9f6-1671-47d1-b1d2-68c33273cbbc",
+		"name": "Backend-gloat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15381248"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/matcher/api/matching",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"backend engineer\",\n    \"skills\": [\n        \"python\",\n        \"java\",\n        \"vue\",\n        \"c#\"\n    ],\n    \"page\": 1\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/matcher/api/matching",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"matcher",
+						"api",
+						"matching"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
