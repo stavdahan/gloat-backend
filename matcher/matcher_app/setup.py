@@ -50,7 +50,6 @@ def fill_mock_data():
         personal_skills = set()
         for random_number in range(random.randint(1, 7)):
             personal_skills.add(random.choice(skills))
-        #person = Candidate(name=fake.name(), title=random.choice(titles), skills= ', '.join(personal_skills))
         person = {
             'name': f"{fake.name()}",
             'title': f"{random.choice(titles)}",
