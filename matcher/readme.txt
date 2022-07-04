@@ -1,4 +1,4 @@
-instructions
+instructions:
 
 1) pip install -r requirements.txt
 2) cd matcher_app
@@ -8,6 +8,7 @@ instructions
 6) run: python manage.py runserver
 
 comments:
+
 1) running  setup.py create the db, table and fill it with fake data
 2) the endpoint should get a post request the parameters in body are title, skills and page (page is not required)
 3) the response is json that contain the top 20 order by rating (the rating is determined by matching of skills)
